@@ -17,7 +17,6 @@ public class RegisterRequestDTO {
     private String email;
 
     @NotBlank
-    @Size(min = 6)
     @ValidRwandanPhoneNumber
     private String phone;
 
